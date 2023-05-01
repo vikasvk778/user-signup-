@@ -21,6 +21,11 @@ namespace UserSignupLogin.Controllers
             return View();
         }
 
+        public ActionResult Home()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult Signup(TBLUserInfo tBLUserInfo)
         {
