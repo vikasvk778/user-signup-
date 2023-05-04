@@ -1,0 +1,17 @@
+﻿
+
+@{
+    ViewBag.Title = "API";
+}
+
+< h2 > News API </ h2 >
+
+@if (ViewBag.message != null)
+{
+    < p > @ViewBag.message </ p >
+}
+else
+{
+    < p > Failed to fetch data from the API.</ p >
+}
+
